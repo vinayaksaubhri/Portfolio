@@ -1,6 +1,11 @@
 import React from 'react';
+import './Css/app.css'
 
 const App = () =>{
-    return <h1>hello world</h1>;
+    return (
+       <>
+         {/* <div className="app__circle"></div> */}
+       </>
+    );
 }
  export default App;

@@ -1,3 +1,8 @@
 body{
-    
+ margin:0px;
+ padding:0px;
+ /* width: 100vw;
+ height: 100vh; */
+ background:no-repeat center fixed url('./Frame_with_circle.svg'); 
+ background-size: cover;
 }
