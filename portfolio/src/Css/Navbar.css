@@ -1,0 +1,29 @@
+.navbar{
+position: absolute;
+width: 20vw;
+height: 90vh;
+
+left: 4vw;
+top: 4vh;
+
+
+background: rgba(255,255,255, 0.2);
+border-radius: 30px;
+backdrop-filter: blur(40px);
+background-clip: padding-box;
+box-shadow: 10px 10px 10px  rgba(46, 54, 68, 0.03);
+z-index: -1;
+/* align-items: center; */
+}
+
+.navbar__img{
+   position: absolute;
+   top:4%;
+   /* left:25%; */
+   right: 21%;
+    max-width: 120px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+ 
+}

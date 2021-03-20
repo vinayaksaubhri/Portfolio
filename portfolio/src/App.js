@@ -1,10 +1,11 @@
 import React from 'react';
 import './Css/app.css'
+import Navbar from './Navbar'
 
 const App = () =>{
     return (
        <>
-         {/* <div className="app__circle"></div> */}
+          <Navbar/>
        </>
     );
 }
