@@ -6,6 +6,8 @@ function Navbar() {
        <>
          <div className="navbar">
              <img src={profile_pic} alt="profile pic" className="navbar__img"/>
+             <br></br>
+             <name className="navbar__name">Vinayak Saubhri</name>
          </div>
        </>
     )

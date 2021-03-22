@@ -1,25 +1,28 @@
-.navbar{
-position: absolute;
-width: 20vw;
-height: 90vh;
+.navbar {
+  position: absolute;
+  width: 20vw;
+  height: 90vh;
 
-left: 4vw;
-top: 4vh;
+  left: 4vw;
+  top: 4vh;
 
-
-background: rgba(255,255,255, 0.2);
-border-radius: 30px;
-backdrop-filter: blur(40px);
-background-clip: padding-box;
-box-shadow: 10px 10px 10px  rgba(46, 54, 68, 0.03);
-z-index: -1;
-text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5vh;
+  backdrop-filter: blur(40px);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  z-index: -1;
+  text-align: center;
 }
 
-.navbar__img{
-    margin:5%;
-    max-width: 50%;
-    max-height: 50%;
-    width: auto;
-    height: auto;
+.navbar__img {
+  margin: 10%;
+  max-width: 55%;
+  max-height: 55%;
+  width: auto;
+  height: auto;
+}
+.navbar__name{
+    font-size: 2vw;
+    font-weight: 600;
 }
