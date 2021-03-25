@@ -3,7 +3,7 @@
   width: 20vw;
   height: 90vh;
 
-  left: 4vw;
+  left: 2vw;
   top: 4vh;
 
   background: rgba(255, 255, 255, 0.2);
@@ -11,10 +11,8 @@
   backdrop-filter: blur(40px);
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
-  z-index: -1;
   text-align: center;
 }
-
 .navbar__img {
   margin: 10%;
   max-width: 55%;
@@ -22,7 +20,60 @@
   width: auto;
   height: auto;
 }
-.navbar__name{
-    font-size: 2vw;
-    font-weight: 600;
+.navbar__name {
+  font-size: 2vw;
+  font-weight: 500;
+  display: inline;
+}
+.navbar__line {
+  background-image: linear-gradient(
+    91.23deg,
+    rgba(14, 235, 45, 0.8) 0%,
+    rgba(14, 235, 45, 0.2) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 90% 0.48em;
+  background-position: 80% 60%;
+  position: relative;
+  display: inline;
+}
+.navbar__des {
+  font-style: normal;
+  font-weight: normal;
+  font-family: Poppins;
+  font-size: 1.25vw;
+  color: #ffffff;
+  margin: 5px;
+}
+.navbar__button_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-around;
+  height: 50%;
+}
+button {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding: 0px;
+  width: 15vw;
+  height: 6vh;
+
+  background:linear-gradient(92.22deg, 
+             rgba(255, 252, 252, 0.5) 0%,
+             rgba(255, 255, 255, 0.2) 100%);
+  border: 0px;
+  border-radius: 5vh;  
+  backdrop-filter: blur(40px);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  outline: none;
+}
+button:hover{
+  
+  background: linear-gradient(92.22deg,
+              rgba(255, 252, 252, 0.8) 0%,
+              rgba(255, 255, 255, 0.2) 100%);
 }
