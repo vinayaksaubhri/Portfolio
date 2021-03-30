@@ -1,27 +1,27 @@
-.Main{
-   height:90vh;
-   width:70vw;
-   position: absolute;
-   left: 24vw;
-   top: 4vh;
+.Main {
+  height: 90vh;
+  width: 70vw;
+  position: absolute;
+  left: 24vw;
+  top: 4vh;
 
-   background: rgba(255, 255, 255, 0.2);
-   border-radius: 5vh;
-   backdrop-filter: blur(40px);
-   background-clip: padding-box;
-   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
-   text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5vh;
+  backdrop-filter: blur(40px);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  text-align: center;
 }
-.app_button{
-    height: 7 vh;
-    width:7vh;
-    position: absolute;
-   left: 95vw;
-   top: 4vh;
-    background: rgba(255, 255, 255, 0.2);
-   border-radius: 2vh;
-   backdrop-filter: blur(40px);
-   background-clip: padding-box;
-   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
-   text-align: center;
+.app_button {
+  height: 7vh;
+  width: 7vh;
+  position: absolute;
+  left: 95vw;
+  top: 4vh;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2vh;
+  backdrop-filter: blur(40px);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  text-align: center;
 }
