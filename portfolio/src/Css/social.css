@@ -1,0 +1,23 @@
+.social{
+    height:10vh ;
+    width:30vw ;
+ 
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2vh;
+    backdrop-filter: blur(40px);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+ 
+    position: absolute;
+    bottom:4%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social_icon{
+    height: 8vh;
+	width: 8vh; 
+    padding: 1vh;;
+}

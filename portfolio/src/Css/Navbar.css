@@ -12,6 +12,9 @@
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .navbar__img {
   margin: 10%;
@@ -19,6 +22,7 @@
   max-height: 55%;
   width: auto;
   height: auto;
+  align-self: center;
 }
 .navbar__name {
   font-size: 2vw;
@@ -33,7 +37,7 @@
   );
   background-repeat: no-repeat;
   background-size: 90% 0.48em;
-  background-position: 80% 60%;
+  background-position: 150% 60%;
   position: relative;
   display: inline;
 }
@@ -52,7 +56,8 @@
   padding: 0px;
   margin: 0px;
   justify-content: space-around;
-  height: 50%;
+  flex-grow: 1;
+  
 }
 button {
   margin-top: 1vh;
