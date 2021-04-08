@@ -21,3 +21,6 @@
 	width: 8vh; 
     padding: 1vh;;
 }
+.social_icon:hover{
+    transform: translateY(-2px);
+}
