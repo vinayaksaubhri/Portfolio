@@ -14,7 +14,10 @@ const App = () =>{
     <Router>
       <Navbar/>
       <Button/>
-      <Route path="/home" component={Home}></Route>
+      <Route path="/" exact component={Home}></Route>
+      <Route path="/About" exact component={About}></Route>
+      <Route path="/Contact" exact component={Contact}></Route>
+      <Route path="/Portfolio" exact component={Portfolio}></Route>
    </Router> 
    </>);
 }
