@@ -10,7 +10,6 @@
   backdrop-filter: blur(40px);
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
-  text-align: center;
 }
 .app_button {
   height: 5vh;
@@ -25,4 +24,41 @@
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
   text-align: center;
   padding: 1.2vh;
+}
+.slider_outer{
+  width: 6vw;
+  height:2vh;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5vh;
+  backdrop-filter: blur(40px);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider_inner{
+  width: 3vw;
+  height: 1vh;
+  border-radius: 5vh;
+  /* margin: 2.5px 15px; */
+  background:#0EEB2D;
+}
+.name {
+  font-size: 4vw;
+  font-weight: 600;
+  display: inline;
+}
+.line {
+  background-image: linear-gradient(
+    91.23deg,
+    rgba(14, 235, 45, 0.8) 0%,
+    rgba(14, 235, 45, 0.2) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 90% 0.48em;
+  background-position: 150% 60%;
+  position: relative;
+  display: inline;
+
 }
