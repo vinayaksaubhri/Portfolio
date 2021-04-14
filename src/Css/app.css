@@ -60,5 +60,27 @@
   background-position: 150% 60%;
   position: relative;
   display: inline;
+}
+.glass{
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(40px);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+.vr_line{
+  width: 10px;
+  height: 210px;
+  
+}
+.vr_inner{
+  width: 10px;
+  height: 15px;
+  border-radius: 5px;
+  background: #15C6FF;
+}
+.inn1{
+ 
+}
+.inn2{
 
 }

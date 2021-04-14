@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Css/app.css"
 import "../Css/about.css"
+import book_icon from "../Images/book.svg"
 
 function About() {
     return (
@@ -16,7 +17,12 @@ function About() {
             more than just programming.It’s a chance to help other people through the power of
             technology.Having this as a career gives me the power to influence other peoples life
             through programs that could help them with day to day tasks.</p>
-          <div className="About__book_icon"><img src="../src/Images/book.png" alt="book icon"/></div>
+          <h1>Education</h1>  
+          <div className="About__book_icon "><img src={book_icon} alt="book icon"/></div>
+          <div className="vr_line glass">
+                <div className="vr_inner inn1"></div>
+                <div className="vr_inner inn2"></div>
+            </div>
       </div>
     )
 }
