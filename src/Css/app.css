@@ -1,8 +1,8 @@
 .Main {
   height: 90vh;
-  width: 70vw;
+  width: 72vw;
   position: absolute;
-  left: 24vw;
+  left: 23vw;
   top: 4vh;
 
   background: rgba(255, 255, 255, 0.2);
@@ -12,10 +12,10 @@
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 .app_button {
-  height: 5vh;
-  width: 5vh;
+  height: 4vh;
+  width: 4vh;
   position: absolute;
-  left: 95vw;
+  left: 96vw;
   top: 4vh;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 2vh;
