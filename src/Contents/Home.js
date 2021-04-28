@@ -14,7 +14,6 @@ function Home() {
            wrapper="div"
            className="Main_typingtext"/>
            <div className="slider_outer"><div className="slider_inner"></div></div>
-
            <Social/>
         </div>
     )

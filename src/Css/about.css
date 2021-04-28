@@ -43,7 +43,8 @@
 }
 .About__bio{
     position:relative;
-    font-size: 1rem;
+    font-size: 1.35vw;
+    overflow-wrap: break-word ;
     left: 1vh;
     color: white;
     margin-top:1%;
@@ -51,7 +52,8 @@
 }
 .vr_line{
     position: relative;
-    left: 3.25vh;
+    left: 3vh;
+
 }
 .inn1{
     position: absolute;
@@ -59,23 +61,42 @@
 }
 .inn2{
     position: absolute;
-    top: 109%;
+    top: 50%;
 }
 .About__Education{
     position: relative;
-    bottom: 53%;
-    left: 6%;
+    bottom: 88%;
+    left: 13%;
+}
+.About__Btech{
+    position: relative;
+    bottom: 86%;
+    left: 13%;   
 }
 .About__clgname{
+    color: white;
     position: relative;
-    bottom: 43.5%;
-    left: 7%; 
+    bottom: 88%;
+    left: 13%; 
 }
+.About__School_time{
+    position: relative;
+    bottom: 88%;
+    left: 13%; 
+    display: flex;
+    color: white;
+}
+.About__Calendar_icon{
+    position: relative;
+    height: 25px;
+    width: 25px;
+}
+
 p,h2,h1{
     margin: 0;
 }
 .bottom_container{
-    height: 40%;
+    height: 50%;
     display:flex;
     flex-direction: row;   
 }
@@ -88,10 +109,5 @@ p,h2,h1{
     height: 100%;
 }
 .top_container{
-    height: 60%;
-}
-.About__Btech{
-    position: relative;
-    bottom: 46%;
-    left: 6.3%;   
+    height: 50%;
 }
